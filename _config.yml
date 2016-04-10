@@ -1,0 +1,3 @@
+exclude: ['CNAME', 'README.md', 'Guardfile']
+title: David Beneš
+description: Moje osobní webová stránka.

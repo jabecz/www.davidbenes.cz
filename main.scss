@@ -1,0 +1,22 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+.video-container {
+  position: relative;
+  /* keeps the aspect ratio */
+  padding-bottom: 56.25%;
+  /* fine tunes the video positioning */
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
