@@ -1,2 +1,1 @@
-# davidbenes.cz
-=====
+# www.davidbenes.cz
